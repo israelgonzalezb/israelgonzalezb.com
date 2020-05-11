@@ -18,7 +18,6 @@ let color6 = "#C13443"
 
 const linkStyle = {
   textDecoration: `none`,
-  color: color2,
 }
 
 const Header = ({ siteTitle }) => (
@@ -59,18 +58,18 @@ const Header = ({ siteTitle }) => (
     </div>
     <div style={{ display: "flex", justifyContent: "space-between" }}>
       <span style={{ display: "flex", justifyContent: "space-between" }}>
-        <a href="https://github.com/israelgonzalezb" style={{...linkStyle, padding: "0 5px"}}>
+        <a className="headerLink" href="https://github.com/israelgonzalezb" style={{...linkStyle, padding: "0 5px"}}>
           <GitHub style={{verticalAlign: "bottom"}} size="32"/>
         </a>
-        <a href="https://twitter.com/izzyz" style={{...linkStyle, padding: "0 5px"}}>
+        <a className="headerLink" href="https://twitter.com/izzyz" style={{...linkStyle, padding: "0 5px"}}>
           <Twitter style={{verticalAlign: "bottom"}} size="32" />
         </a>
       </span>
       <span style={{display: "flex", justifyContent: "space-between"}}>
-        <Link to="/" style={{...linkStyle, padding: "0 5px", fontSize: "1.2rem"}}>
+        <Link to="/" className="headerLink" style={{...linkStyle, padding: "0 5px", fontSize: "1.2rem"}}>
           ABOUT
         </Link>
-        <Link to="/" style={{...linkStyle, padding: "0 5px", fontSize: "1.2rem"}}>
+        <Link to="/" className="headerLink" style={{...linkStyle, padding: "0 5px", fontSize: "1.2rem"}}>
           PROJECTS
         </Link>
       </span>

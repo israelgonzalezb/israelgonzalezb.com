@@ -335,6 +335,12 @@ header h1 {
     Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
     sans-serif;
 }
+.headerLink {
+  color: rgb(242, 45, 64);
+}
+.headerLink:hover {
+  color: white;
+}
 hgroup {
   margin-left: 0;
   margin-right: 0;
