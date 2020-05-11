@@ -32,17 +32,14 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: "Zilla Slab Highlight",
-            variants: ["400"],
-          },
-          {
-            family: "Gloria Hallelujah",
-          },
-          {
             family: "Source Code Pro"
           },
           {
             family: `Open Sans`,
+          },
+          {
+            family: `Open Sans Condensed`,
+            variants: ['700']
           },
         ],
       },
