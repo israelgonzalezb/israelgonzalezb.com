@@ -19,11 +19,14 @@ margin-bottom off
 
 TODO: Make Nav bar the same width as the main content
 
-TODO: Make wireframe of site outline
+TODO: Flip Title colors on hover
+
+✅TODO: Make wireframe of site outline
 
 TODO: Main container is list of project components
 
-Todo: Create project components to showcase different github projects
+Todo: Create project component to showcase different github projects
+    - Map over some data to create list of projects
 
 TODO: Make Skills and Projects Nav links scroll page down to section
 
