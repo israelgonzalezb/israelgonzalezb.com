@@ -72,6 +72,9 @@ const Header = ({ siteTitle }) => (
         <Link to="/" className="headerLink" style={{...linkStyle, padding: "0 5px", fontSize: "1.2rem"}}>
           PROJECTS
         </Link>
+        <Link to="/" className="headerLink" style={{...linkStyle, padding: "0 5px", fontSize: "1.2rem"}}>
+          SKILLS
+        </Link>
       </span>
     </div>
   </header>

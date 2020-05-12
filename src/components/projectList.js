@@ -6,7 +6,7 @@ import projects from "../data/projects"
 
 const Projects = () => {
     return <div>
-        <ul>
+        <ul style={{display: "table"}}>
             {projects.map((props) => <Project {...props} />)}
       </ul>
   </div>

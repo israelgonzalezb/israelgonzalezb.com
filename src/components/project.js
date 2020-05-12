@@ -3,7 +3,7 @@ import Image from "./image"
 
 const Project = ({ thumb, title, path, source, description }) => {
   return (
-    <li className="projectItem">
+    <li className="projectItem" style={{display: "table-row"}}>
       <div className="projectHeader">
         <div className="projectThumb" style={{ width: "72px", height: "72px" }}>
           {thumb}
