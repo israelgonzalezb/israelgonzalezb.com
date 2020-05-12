@@ -9,14 +9,11 @@ import ProjectList from "../components/projectList"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <img src="https://picsum.photos/100/100" />
+    <h2>Israel Gonzalez</h2>
+    <p>Full Stack Web Developer</p>
+    <p>Now I'll go build something great.</p>
     <ProjectList />
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
