@@ -58,10 +58,10 @@ const Header = ({ siteTitle }) => (
     </div>
     <div style={{ display: "flex", justifyContent: "space-between" }}>
       <span style={{ display: "flex", justifyContent: "space-between" }}>
-        <a className="headerLink" href="https://github.com/israelgonzalezb" style={{...linkStyle, padding: "0 5px"}}>
+        <a className="headerLink socialIcon" href="https://github.com/israelgonzalezb" style={{...linkStyle, padding: "0 5px"}}>
           <GitHub style={{verticalAlign: "bottom"}} size="32"/>
         </a>
-        <a className="headerLink" href="https://twitter.com/izzyz" style={{...linkStyle, padding: "0 5px"}}>
+        <a className="headerLink socialIcon" href="https://twitter.com/izzyz" style={{...linkStyle, padding: "0 5px"}}>
           <Twitter style={{verticalAlign: "bottom"}} size="32" />
         </a>
       </span>

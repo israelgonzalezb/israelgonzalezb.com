@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import profilePic from "../images/izzy2.png";
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -9,10 +10,11 @@ import ProjectList from "../components/projectList"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <img src="https://picsum.photos/100/100" />
+    <div style={{textAlign: "center"}}>
+      <img style={{ borderRadius: "100px", width: "125px", height: "125px" }} src={profilePic} />
     <h2>Israel Gonzalez</h2>
-    <p>Full Stack Web Developer</p>
-    <p>Now I'll go build something great.</p>
+      <p>Full Stack Web Developer</p>
+      </div>
     <ProjectList />
   </Layout>
 )

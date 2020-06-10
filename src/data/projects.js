@@ -1,20 +1,22 @@
+import logo from "../images/gatsby-icon.png"
+
 export default [
   {
-    thumb: "https://picsum.photos/72/72",
+    thumb: logo,
     title: "CAT NAMER",
     path: "https://google.com",
     source: "https://github.com/israelgonzalezb",
     description: "Name your cat.",
   },
   {
-    thumb: "https://picsum.photos/100/100",
+    thumb: logo,
     title: "Box Counter",
     path: "https://google.com",
     source: "https://github.com/israelgonzalezb",
     description: "Never manually count boxes again",
   },
   {
-    thumb: "https://picsum.photos/80/80",
+    thumb: logo,
     title: "Soda Flavors List",
     path: "https://google.com",
     source: "https://github.com/israelgonzalezb",
