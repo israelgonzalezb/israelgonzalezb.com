@@ -16,6 +16,8 @@ const IndexPage = () => (
       <p>Full Stack Web Developer</p>
       </div>
     <ProjectList />
+    
+
   </Layout>
 )
 

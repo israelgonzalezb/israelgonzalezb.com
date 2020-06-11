@@ -34,11 +34,11 @@ const Layout = ({ children }) => {
           minWidth: "400px"
         }}
       >
-        <main style={{padding: "60px", backgroundColor: "white", borderRadius: "10px"}}>{children}</main>
-        <footer>
+        <main style={{padding: "60px", backgroundColor: "black", borderRadius: "10px", color: "white"}}>{children}</main>
+        <footer style={{color: "white", fontSize: "0.75rem"}}>
           © {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a href="https://www.gatsbyjs.org" style={{textDecoration: "none"}}>Gatsby</a>
         </footer>
       </div>
     </>
