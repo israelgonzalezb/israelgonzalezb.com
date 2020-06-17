@@ -2,7 +2,7 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  background-color: #060101;
+  background-color: white;
 }
 body {
   margin: 0;
@@ -200,7 +200,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: white;
   font-family: Open Sans, sans-serif;
   font-weight: normal;
   word-wrap: break-word;
@@ -338,6 +338,7 @@ header {
   justify-content: space-between;
   min-width: 400px;
   text-shadow: 0 0 5px #c72626;
+  background-color: white;
 }
 header h1 {
   font-family: Open Sans Condensed, -apple-system, BlinkMacSystemFont, Segoe UI,
@@ -345,18 +346,17 @@ header h1 {
     sans-serif;
 }
 .headerLink {
-  color: rgb(242, 45, 64);
-  text-shadow: 0 0 5px #c72626;
+  color: black;
+  text-shadow: 0 0 5px #0000009c;
 }
 .headerLink:hover {
-  color: white;
-  text-shadow: 0 0 20px white;
+  text-shadow: 0 0 20px#0000009c;
 }
 .socialIcon {
-  filter: drop-shadow(0 0 2px rgb(242, 45, 64));
+  filter: drop-shadow(0 0 2px black);
 }
 .socialIcon:hover {
-  filter: drop-shadow(0 0 5px white);
+  filter: drop-shadow(0 0 5px black);
 }
 hgroup {
   margin-left: 0;

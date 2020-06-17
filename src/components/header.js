@@ -23,7 +23,7 @@ const linkStyle = {
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: color1,
+      background: "white",
       // marginBottom: `1.45rem`,
       textDecoration: `none`,
       display: `block`,
@@ -52,7 +52,7 @@ const Header = ({ siteTitle }) => (
         </h1>
         </div>*/}
     <div>
-      <Link to="/" style={{ ...linkStyle, color: "white" }}>
+      <Link to="/" style={{ ...linkStyle, color: "black" }}>
         <h1>Israel<span style={{ color: color2 }}>Gonzalez</span></h1>
       </Link>
     </div>
