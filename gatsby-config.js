@@ -5,6 +5,12 @@ module.exports = {
     author: `@izzyz`,
   },
   plugins: [
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [`gatsby-remark-responsive-iframe`],
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -32,17 +38,14 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: "Zilla Slab Highlight",
-            variants: ["400"],
-          },
-          {
-            family: "Gloria Hallelujah",
-          },
-          {
-            family: "Source Code Pro"
+            family: "Source Code Pro",
           },
           {
             family: `Open Sans`,
+          },
+          {
+            family: `Open Sans Condensed`,
+            variants: ["700"],
           },
         ],
       },
