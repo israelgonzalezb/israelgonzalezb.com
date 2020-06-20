@@ -1,25 +1,20 @@
 import logo from "../images/gatsby-icon.png"
+import nutrijournal from "../images/nutrijournal.png"
+import budgetBlocks from "../images/budgetBlocks.svg"
 
 export default [
   {
-    thumb: logo,
-    title: "CAT NAMER",
-    path: "https://google.com",
-    source: "https://github.com/israelgonzalezb",
-    description: "Name your cat.",
+    thumb: nutrijournal,
+    title: "NutriJournal",
+    path: "https://getnutrijournal.com",
+    source: "https://github.com/israelgonzalezb/nutrition-tracker-fe",
+    description: "Personal food tracking and nutrition visualization app",
   },
   {
-    thumb: logo,
-    title: "Box Counter",
-    path: "https://google.com",
-    source: "https://github.com/israelgonzalezb",
-    description: "Never manually count boxes again",
-  },
-  {
-    thumb: logo,
-    title: "Soda Flavors List",
-    path: "https://google.com",
-    source: "https://github.com/israelgonzalezb",
-    description: "A mostly incomplete list of all the soda flavors, ever.",
+    thumb: budgetBlocks,
+    title: "Budget Blocks",
+    path: "https://budgetblocks.org",
+    source: "https://github.com/israelgonzalezb/budget-blocks-fe",
+    description: "Personal finance budgeting app",
   },
 ]
