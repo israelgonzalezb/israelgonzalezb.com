@@ -66,9 +66,9 @@ const Header = ({ siteTitle }) => (
         </a>
       </span>
       <span style={{display: "flex", justifyContent: "space-between"}}>
-        <Link to="/about" className="headerLink" style={{...linkStyle, padding: "0 5px", fontSize: "1.2rem"}}>
+        {/* <Link to="/about" className="headerLink" style={{...linkStyle, padding: "0 5px", fontSize: "1.2rem"}}>
           ABOUT
-        </Link>
+        </Link> */}
         <Link to="/resume" className="headerLink" style={{...linkStyle, padding: "0 5px", fontSize: "1.2rem"}}>
           RESUME
         </Link>
