@@ -34,7 +34,7 @@ const Layout = ({ children }) => {
           minWidth: "400px"
         }}
       >
-        <main style={{padding: "60px", backgroundColor: "black", borderRadius: "10px", color: "white"}}>{children}</main>
+        <main style={{padding: "60px 90px", backgroundColor: "black", borderRadius: "10px", color: "white"}}>{children}</main>
         <footer style={{color: "black", fontSize: "0.75rem"}}>
           © {new Date().getFullYear()}, Built with
           {` `}
