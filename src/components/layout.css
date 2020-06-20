@@ -337,7 +337,7 @@ header {
   align-items: center;
   justify-content: space-between;
   min-width: 400px;
-  text-shadow: 0 0 5px #c72626;
+  /* text-shadow: 0 0 5px #c72626; */
   background-color: white;
 }
 header h1 {
@@ -345,15 +345,18 @@ header h1 {
     Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
     sans-serif;
 }
+header h1:hover {
+  text-shadow: 0 0 20px#0000009c;
+}
 .headerLink {
   color: black;
-  text-shadow: 0 0 5px #0000009c;
+  /*text-shadow: 0 0 5px #0000009c;*/
 }
 .headerLink:hover {
   text-shadow: 0 0 20px#0000009c;
 }
 .socialIcon {
-  filter: drop-shadow(0 0 2px black);
+  /*filter: drop-shadow(0 0 2px black);*/
 }
 .socialIcon:hover {
   filter: drop-shadow(0 0 5px black);

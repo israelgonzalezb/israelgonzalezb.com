@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main style={{padding: "60px", backgroundColor: "black", borderRadius: "10px", color: "white"}}>{children}</main>
-        <footer style={{color: "white", fontSize: "0.75rem"}}>
+        <footer style={{color: "black", fontSize: "0.75rem"}}>
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org" style={{textDecoration: "none"}}>Gatsby</a>
