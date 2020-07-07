@@ -2,7 +2,7 @@ import React from "react"
 import Project from "./project";
 import projects from "../data/projects"
 
-// TODO: Map over data to lilst projects
+// TODO: Map over data to list projects
 
 const Projects = () => {
     return <div>

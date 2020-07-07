@@ -6,7 +6,7 @@ export default [
   {
     thumb: nutrijournal,
     title: "NutriJournal",
-    path: "https://getnutrijournal.com",
+    path: "https://nutrition-tracker-fe.herokuapp.com/",
     source: "https://github.com/israelgonzalezb/nutrition-tracker-fe",
     description: "Personal food tracking and nutrition visualization app",
   },
