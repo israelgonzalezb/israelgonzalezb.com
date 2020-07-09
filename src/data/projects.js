@@ -13,7 +13,7 @@ export default [
   {
     thumb: budgetBlocks,
     title: "Budget Blocks",
-    path: "https://budgetblocks.org",
+    path: "https://budget-blocks-fe.vercel.app/",
     source: "https://github.com/israelgonzalezb/budget-blocks-fe",
     description: "Personal finance budgeting app",
   },
