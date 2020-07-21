@@ -3,11 +3,13 @@ import { Link } from "gatsby"
 import { Icon } from "react-icons-kit"
 import { u1F431 } from 'react-icons-kit/noto_emoji_regular/u1F431' // cat
 import { u1F426 } from 'react-icons-kit/noto_emoji_regular/u1F426' // bird
+import { u2934 } from 'react-icons-kit/noto_emoji_regular/u2934' // arrow
 import PropTypes from "prop-types"
 import React from "react"
 
 const GitHub = ({ size }) => <Icon icon={u1F431} size={size} />
 const Twitter = ({ size }) => <Icon icon={u1F426} size={size} />
+const Arrow = ({ size }) => <Icon icon={u2934} size={size} />
 
 let color1 = "#060101"
 let color2 = "#F22D40"
@@ -59,10 +61,16 @@ const Header = ({ siteTitle }) => (
     <div style={{ display: "flex", justifyContent: "space-between" }}>
       <span style={{ display: "flex", justifyContent: "space-between" }}>
         <a className="headerLink socialIcon" href="https://github.com/israelgonzalezb" style={{...linkStyle, padding: "0 5px"}}>
-          <GitHub style={{verticalAlign: "bottom"}} size="32"/>
+          <GitHub style={{ verticalAlign: "bottom" }} size="32" />
+          {"Github"}
         </a>
         <a className="headerLink socialIcon" href="https://twitter.com/izzyz" style={{...linkStyle, padding: "0 5px"}}>
-          <Twitter style={{verticalAlign: "bottom"}} size="32" />
+          <Twitter style={{ verticalAlign: "bottom" }} size="32" />
+          {"Twitter"}
+        </a>
+        < a className="headerLink socialIcon" href="https://www.linkedin.com/in/israelgonzalezb/" style={{ ...linkStyle, padding: "0 5px" }}>
+          <Arrow style={{ verticalAlign: "bottom" }} size="32" />
+          {"LinkedIn"}
         </a>
       </span>
       <span style={{display: "flex", justifyContent: "space-between"}}>
