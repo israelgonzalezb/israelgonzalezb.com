@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import ProjectList from "../components/projectList"
-import resumeImg from "../images/Resume-July2020-Revision1";
+import resumeImg from "../images/Resume-July2020-Revision1.png";
 import resume from "../data/Resume-July2020-Revision1.pdf";
 
 const IndexPage = () => (
